@@ -1,0 +1,8 @@
+[Bb]in
+[Ii]nclude
+[Ll]ib
+.env
+db.json
+hg_data.json
+*.log
+pyvenv.cfg
