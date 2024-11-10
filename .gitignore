@@ -6,3 +6,4 @@ db.json
 hg_data.json
 *.log
 pyvenv.cfg
+.idea
