@@ -7,3 +7,6 @@ hg_data.json
 *.log
 pyvenv.cfg
 .idea
+data
+0*.sql
+.env*
