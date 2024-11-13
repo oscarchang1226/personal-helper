@@ -1,6 +1,7 @@
 # A docker compose file with postgres database
 services:
   db:
+    container_name: ph_db
     image: postgres:17-alpine3.20
     env_file:
       - .env.postgres
@@ -8,3 +9,4 @@ services:
       - "5432:5432"
     volumes:
       - ./data:/var/lib/postgresql/data
+      - ./sql:/sql

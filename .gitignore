@@ -10,3 +10,7 @@ pyvenv.cfg
 data
 0*.sql
 .env*
+sql
+.gredentials.json
+share
+__pycache__
