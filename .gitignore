@@ -14,3 +14,4 @@ sql
 .gredentials.json
 share
 __pycache__
+scripts/transactions.json

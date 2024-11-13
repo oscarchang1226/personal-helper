@@ -4,7 +4,7 @@ class Service(models.Model):
     service_id = models.AutoField(primary_key=True)
     manager_id = models.IntegerField()
     service_name = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.TextField(null=True)
 
 class Schedule(models.Model):
     schedule_id = models.AutoField(primary_key=True)

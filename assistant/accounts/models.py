@@ -4,7 +4,7 @@ class ServiceManager(models.Model):
     manager_id = models.AutoField(primary_key=True)
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    role = models.CharField(max_length=100)
+    role = models.CharField(max_length=100, null=True)
     email = models.EmailField()
 
 class Account(models.Model):
@@ -14,7 +14,7 @@ class Account(models.Model):
     service_manager = models.ForeignKey(ServiceManager, on_delete=models.CASCADE)
 
 class CustomerAccount(models.Model):
-    customer_id = models.IntegerField()
-    account_id = models.IntegerField()
+    customer = models.ForeignKey('customers.Customer', on_delete=models.CASCADE)
+    account = models.ForeignKey('accounts.Account', on_delete=models.CASCADE)
     payment_flag = models.BooleanField()
 
