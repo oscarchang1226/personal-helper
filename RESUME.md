@@ -23,7 +23,7 @@ Full Stack Software Engineer with 8 years of experience designing and developing
 *July 2021 - Present*
 - Lead a team of two engineers to support day-to-day operations and resolve application maintenance issues, enhancing productivity by 40%.
 - Collaborate with cross-functional teams to design and integrate new features into an existing LMS, including user management, course administration, and progress tracking.
-- Develop and maintain full-stack web applications, focusing on scalability and user accessibility while using technologies such as Python, Django, 
+- Develop and maintain full-stack web applications, focusing on scalability and user accessibility while using technologies such as Laravel, Django, NextJS, and ReactJS. 
 - Utilize AWS EC2 for infrastructure management and AWS S3 for file storage solutions, enhancing application scalability.
 - Design user interfaces with ReactJS and VueJS to ensure responsive and seamless user experiences across devices.
 ReactJS, and VueJS.
